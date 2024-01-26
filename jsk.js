@@ -3,8 +3,8 @@ function validacionPro() {
     var clave = document.getElementById('clave');
     var emailvalidacion = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
 
-    if (!emailvalidacion.test(emailInput.value)) {  
-      console.log('Proporciona una dirección de correo electrónico que sea válida.');
+    if (!emailvalidacion.test(emailInput.value)) {
+      console.log('Proporciona una dirección de correo electrónico que sea válida');
       
       
       return false;
@@ -12,14 +12,15 @@ function validacionPro() {
     } 
     
     if (clave.value.length < 8) {
-        console.log('La contraseña debe contener un mínimo de 8 caracteres.');
+        console.log('La clave debe contener un mínimo de 8 caracteres');
         return false;
       }
 
     else {
-      window.alert('Iniciaste Sesion :)')
+      window.alert('Has Iniciado Sesion')
       return true;
-    }  }
+    }  
+  }
 
 
   
