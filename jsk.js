@@ -1,6 +1,6 @@
 function validacionPro() {
     var emailInput = document.getElementById('email');
-    var clave = document.getElementById('password');
+    var clave = document.getElementById('clave');
     var emailvalidacion = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
 
     if (!emailvalidacion.test(emailInput.value)) {  
